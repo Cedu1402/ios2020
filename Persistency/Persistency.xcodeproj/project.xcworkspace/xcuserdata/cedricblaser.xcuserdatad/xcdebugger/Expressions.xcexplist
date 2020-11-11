@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EditViewController.viewWillDisappear(_:):EditViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "presentingViewController">
+            </PersistentString>
+            <PersistentString
+               value = "type(presentingViewController)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in EditViewController.saveClicked(_:):EditViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presentingViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EditViewController.viewDidLoad():EditViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.presentingViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.presentingViewControlle">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

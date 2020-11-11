@@ -18,15 +18,42 @@ class PersistencyTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSaveArrayToFile() throws {
+        // Arrange
+        let app = AppDelegate()
+        let expected = ["test", "test2"]
+        // Act
+        app.saveStringArray(_array: expected)
+        let actual = app.loadStringArray()
+        // Assert
+        XCTAssertEqual(actual[0], expected[0], "First item is equal")
+        XCTAssertEqual(actual[1], expected[1], "Second item is equal")
     }
 
+    
+    func testSaveArrayToFileUnequal() throws {
+        // Arrange
+        let app = AppDelegate()
+        let expected = ["test", "test2"]
+        let other = ["test3", "test4"]
+        
+        // Act
+        app.saveStringArray(_array: expected)
+        app.saveStringArray(_array: other)
+        let actual = app.loadStringArray()
+        // Assert
+        XCTAssertNotEqual(actual[0], expected[0], "First item is not equal")
+        XCTAssertNotEqual(actual[1], expected[1], "Second item is not equal")
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
+            let app = AppDelegate()
+            let expected = ["test", "test2"]
+            app.saveStringArray(_array: expected)
+            let actual = app.loadStringArray()
         }
     }
 

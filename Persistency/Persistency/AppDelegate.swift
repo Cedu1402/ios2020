@@ -10,8 +10,32 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+    let fileName = "testArray.dat"
+    func saveStringArray(_array: [String]){
+        do{
+            try (_array as NSArray).write(to:arrayFileURL())
+        }catch{
+            let nserror = error as NSError
+            fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
+        }
+    }
+    
+    func loadStringArray() -> [String]{
+        guard let readArray = NSArray(contentsOf: arrayFileURL()) else {
+            fatalError("Failed to read file data")
+        }
+        return readArray as! [String]
+    }
+    
+    func arrayFileURL() -> URL{
+        let manager = FileManager.default
+        let directories = manager.urls(for: .documentDirectory, in: .userDomainMask)
+        guard let documentDirectory = directories.first  else {
+            fatalError("Failed to create Path")
+        }
+        return documentDirectory.appendingPathComponent("MyFile.dat")
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

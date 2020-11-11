@@ -4,7 +4,7 @@
 //
 //  Created by cedric blaser on 17.09.20.
 //
-
+/*
 import Foundation
 
 public struct DataProvider {
@@ -25,3 +25,4 @@ public struct DataProvider {
     }
 }
 
+*/

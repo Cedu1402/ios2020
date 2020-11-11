@@ -5,7 +5,7 @@
 //  Created by cedric blaser on 17.09.20.
 //
 
-import Foundation
+/* import Foundation
 
 struct Person {
     var firstName: String
@@ -20,3 +20,4 @@ struct Person {
     
     
 }
+*/

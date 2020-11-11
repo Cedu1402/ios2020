@@ -11,11 +11,16 @@
 		40AFE7542545FA12008D6CB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE7532545FA12008D6CB0 /* SceneDelegate.swift */; };
 		40AFE7562545FA12008D6CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE7552545FA12008D6CB0 /* ViewController.swift */; };
 		40AFE7592545FA12008D6CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AFE7572545FA12008D6CB0 /* Main.storyboard */; };
-		40AFE75C2545FA12008D6CB0 /* Persistency.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE75A2545FA12008D6CB0 /* Persistency.xcdatamodeld */; };
 		40AFE75E2545FA14008D6CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AFE75D2545FA14008D6CB0 /* Assets.xcassets */; };
 		40AFE7612545FA14008D6CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AFE75F2545FA14008D6CB0 /* LaunchScreen.storyboard */; };
 		40AFE76C2545FA15008D6CB0 /* PersistencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE76B2545FA15008D6CB0 /* PersistencyTests.swift */; };
 		40AFE7772545FA15008D6CB0 /* PersistencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE7762545FA15008D6CB0 /* PersistencyUITests.swift */; };
+		40AFE7882546028D008D6CB0 /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE7872546028D008D6CB0 /* PersonTableViewController.swift */; };
+		40AFE79625460320008D6CB0 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE79425460320008D6CB0 /* DataProvider.swift */; };
+		40AFE79725460320008D6CB0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE79525460320008D6CB0 /* Person.swift */; };
+		40AFE79C25460349008D6CB0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE79B25460349008D6CB0 /* DetailViewController.swift */; };
+		40AFE7A125460392008D6CB0 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AFE7A025460392008D6CB0 /* EditViewController.swift */; };
+		40C69FEF2559DFB200B05DBD /* Persistency.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40C69FED2559DFB200B05DBD /* Persistency.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +46,6 @@
 		40AFE7532545FA12008D6CB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		40AFE7552545FA12008D6CB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40AFE7582545FA12008D6CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40AFE75B2545FA12008D6CB0 /* Persistency.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Persistency.xcdatamodel; sourceTree = "<group>"; };
 		40AFE75D2545FA14008D6CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40AFE7602545FA14008D6CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40AFE7622545FA14008D6CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		40AFE7722545FA15008D6CB0 /* PersistencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AFE7762545FA15008D6CB0 /* PersistencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencyUITests.swift; sourceTree = "<group>"; };
 		40AFE7782545FA15008D6CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AFE7872546028D008D6CB0 /* PersonTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		40AFE79425460320008D6CB0 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = ../../SwiftProgrammers/SwiftProgrammers/DataProvider.swift; sourceTree = "<group>"; };
+		40AFE79525460320008D6CB0 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../../SwiftProgrammers/SwiftProgrammers/Person.swift; sourceTree = "<group>"; };
+		40AFE79B25460349008D6CB0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		40AFE7A025460392008D6CB0 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		40C69FEE2559DFB200B05DBD /* Persistency.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Persistency.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,8 @@
 		40AFE7502545FA12008D6CB0 /* Persistency */ = {
 			isa = PBXGroup;
 			children = (
+				40AFE79425460320008D6CB0 /* DataProvider.swift */,
+				40AFE79525460320008D6CB0 /* Person.swift */,
 				40AFE7512545FA12008D6CB0 /* AppDelegate.swift */,
 				40AFE7532545FA12008D6CB0 /* SceneDelegate.swift */,
 				40AFE7552545FA12008D6CB0 /* ViewController.swift */,
@@ -108,7 +120,10 @@
 				40AFE75D2545FA14008D6CB0 /* Assets.xcassets */,
 				40AFE75F2545FA14008D6CB0 /* LaunchScreen.storyboard */,
 				40AFE7622545FA14008D6CB0 /* Info.plist */,
-				40AFE75A2545FA12008D6CB0 /* Persistency.xcdatamodeld */,
+				40AFE7872546028D008D6CB0 /* PersonTableViewController.swift */,
+				40C69FED2559DFB200B05DBD /* Persistency.xcdatamodeld */,
+				40AFE79B25460349008D6CB0 /* DetailViewController.swift */,
+				40AFE7A025460392008D6CB0 /* EditViewController.swift */,
 			);
 			path = Persistency;
 			sourceTree = "<group>";
@@ -261,10 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40AFE79625460320008D6CB0 /* DataProvider.swift in Sources */,
+				40AFE7882546028D008D6CB0 /* PersonTableViewController.swift in Sources */,
 				40AFE7562545FA12008D6CB0 /* ViewController.swift in Sources */,
-				40AFE75C2545FA12008D6CB0 /* Persistency.xcdatamodeld in Sources */,
+				40AFE79725460320008D6CB0 /* Person.swift in Sources */,
+				40C69FEF2559DFB200B05DBD /* Persistency.xcdatamodeld in Sources */,
 				40AFE7522545FA12008D6CB0 /* AppDelegate.swift in Sources */,
 				40AFE7542545FA12008D6CB0 /* SceneDelegate.swift in Sources */,
+				40AFE79C25460349008D6CB0 /* DetailViewController.swift in Sources */,
+				40AFE7A125460392008D6CB0 /* EditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,12 +613,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		40AFE75A2545FA12008D6CB0 /* Persistency.xcdatamodeld */ = {
+		40C69FED2559DFB200B05DBD /* Persistency.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				40AFE75B2545FA12008D6CB0 /* Persistency.xcdatamodel */,
+				40C69FEE2559DFB200B05DBD /* Persistency.xcdatamodel */,
 			);
-			currentVersion = 40AFE75B2545FA12008D6CB0 /* Persistency.xcdatamodel */;
+			currentVersion = 40C69FEE2559DFB200B05DBD /* Persistency.xcdatamodel */;
 			path = Persistency.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
